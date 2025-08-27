@@ -61,3 +61,45 @@ nav {
 .buy-now:hover {
     background-color: #0056b3;
 }
+
+#hero {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 50px 100px;
+    background-color: #f0f8ff;
+}
+
+.hero-content {
+    max-width: 500px;
+}
+
+.hero-content h1 {
+    font-size: 3em;
+    margin-bottom: 20px;
+}
+
+.hero-content p {
+    font-size: 1.2em;
+    margin-bottom: 30px;
+}
+
+.cta-button {
+    background-color: #28a745;
+    color: white;
+    border: none;
+    padding: 15px 30px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+.cta-button:hover {
+    background-color: #218838;
+}
+
+.hero-image img {
+    max-width: 500px;
+    border-radius: 10px;
+}
